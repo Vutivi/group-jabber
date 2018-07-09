@@ -1,8 +1,6 @@
-# Chat
+#Chat
 
-Simple web chat app using EventStream.
-
-
+My Group chatApp
 
 ## Usage
 
