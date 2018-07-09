@@ -4,14 +4,15 @@
     <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
 
     <script src="{% static 'chat/jquery-3.2.1.min.js' %}"></script>
+	<link href="{% static 'chat/lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+	<link href="{% static 'chat/css/main.css' %}" rel="stylesheet">
 
     <style>
       body {
-        margin: 0;
+        margin: auto;
         padding: 0;
-        height: 100%;
-        color: #ffffff;
-        background-color: #00a79d;
+        width: 30%;
+        background-color: #ffffff;
       }
 
       input, div {
@@ -56,7 +57,7 @@
     <div id="join-elements">
       <form id="join-form">
         <span id="nick-input-span">Nickname: <input type="text" id="nick-input" />
-        <button id="join-button">Join</button></span>
+        <button id="join-button" class="btn btn-primary">Join</button></span>
       </form>
     </div>
   </body>
